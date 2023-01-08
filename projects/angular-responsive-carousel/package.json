@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/ivylaboratory/angular-carousel.git"
   },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
   "author": {
     "name": "Nikita Drozhzhin",
     "email": "drozhzhin.n.e@gmail.com"
@@ -24,10 +27,10 @@
     "url": "https://github.com/ivylaboratory/angular-carousel/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^12.0.5",
-    "@angular/core": "^12.0.5"
+    "@angular/common": "~15.0.4",
+    "@angular/core": "~15.0.4"
   },
   "dependencies": {
-    "tslib": "^2.1.0"
+    "tslib": "2.4.1"
   }
 }
